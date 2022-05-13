@@ -22,7 +22,7 @@ function Button({ label, textColor = "white", backgroundColor = "red", size = "m
 
 export default Button;
 
-Button.proptypes = {
+Button.propTypes = {
   label: PropTypes.string,
   textColor: PropTypes.string,
   backgroundColor: PropTypes.string,

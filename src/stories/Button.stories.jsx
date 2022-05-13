@@ -32,10 +32,36 @@ const Template = args => <Button {...args} />
 
 export const Blue = Template.bind({})
 // setting args
-
 Blue.args = {
   backgroundColor: "Blue",
   label: "Click",
   size: "md",
+  textColor: "white"
+}
+
+export const Red = Template.bind({})
+// setting args
+Red.args = {
+  backgroundColor: "Red",
+  label: "Click",
+  size: "md",
+  textColor: "white"
+}
+
+export const Green = Template.bind({})
+// setting args
+Green.args = {
+  backgroundColor: "Green",
+  label: "Click",
+  size: "md",
+  textColor: "white"
+}
+
+export const BlueSmall = Template.bind({})
+// setting args
+BlueSmall.args = {
+  backgroundColor: "Blue",
+  label: "Click",
+  size: "sm",
   textColor: "white"
 }
